@@ -1,0 +1,25 @@
+body {
+  background-color: #f5f7fa;
+  font-size: 18px;
+}
+
+.product-card {
+  transition: transform 0.15s ease-in-out;
+}
+
+.product-card:hover {
+  transform: translateY(-6px);
+}
+
+.navbar-brand {
+  font-size: 1.25rem;
+}
+
+.card-header {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.btn {
+  border-radius: 8px !important;
+}
